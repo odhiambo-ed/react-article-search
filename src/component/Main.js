@@ -2,8 +2,7 @@ import React from 'react'
 
 const Main = () => {
   return (
-      <div>
-          <main>
+          <main className='main-container'>
               <p class="results-returned">About 151,000,000 results (0.46 seconds)</p>
 
               <ul>
@@ -32,7 +31,6 @@ const Main = () => {
                   </ul>
               </div>
           </main>
-    </div>
   )
 }
 
