@@ -5,14 +5,16 @@ const Header = () => {
       <div>
           <header>
               <div>
-                  <img src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'></img>
+                  <img src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png' />
                   <div className='search-box'>
                       <form>
                           <input type="search" name="search" value="build this page" className="search-prompt" />
                       </form>
                   </div>
                   <div className="nav-right">
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMG6DsqfFZ-Mlo3ULMOs6CqBqBuSLUT5_OZv82wlZVs_LnHFGgZg" alt="Googleapps" height="16px" width="16px" />
+                      <span class="material-symbols-outlined">
+                          apps
+                      </span>
                           {/* <a href="index.html"><button>Sign in</button></a> */}
                   </div>
               </div>
