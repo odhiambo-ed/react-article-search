@@ -8,7 +8,7 @@ const Header = () => {
                   <img src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png' />
                   <div className='search-box'>
                       <form>
-                          <input type="search" name="search" value="build this page" className="search-prompt" />
+                          <input type="search" name="search" value="Search scholarly articles" className="search-prompt" />
                       </form>
                   </div>
                   <div className="nav-right">
