@@ -5,6 +5,29 @@ body {
   margin: 0px;
 }
 
+.hero-image {
+    height: 100vh;
+}
+
+/*This is where you place your image url. Most images should work by just replacing the url. */
+.hero-image-container {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+  background-color: #edf0f4;
+  margin: auto;
+  width: 70%;
+  border: .5em solid #ebeef1;
+  padding: 3em;
+  border-radius: .5em;
+  box-shadow: .1em .3em #888888;
+}
+
 /* remove bullet points */
 ul {
   list-style-type: none;
@@ -27,6 +50,11 @@ header div {
 
 header div img {
     margin-right: 30px;
+}
+
+.material-symbols-outlined {
+  color: #ebeef1;
+  margin: .5em;
 }
 
 main {

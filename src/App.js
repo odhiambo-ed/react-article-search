@@ -4,9 +4,11 @@ import Main from './component/Main'
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Main />
+    <div className="hero-image">
+      <div className="hero-image-container">
+        <Header />
+        <Main />
+      </div>
     </div>
   )
 }
